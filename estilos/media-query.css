@@ -33,5 +33,10 @@
     section#ilogin>div#iformu {
         float: right;
         width: 50%;
+
+        font-size: 1.2em;
     }
-} 
+    section#ilogin>div#iformu>h1 {
+        font-size: 2em;
+    }
+}

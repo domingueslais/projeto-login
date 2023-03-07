@@ -38,6 +38,7 @@ main {
 }
 div {
     display: block;
+    margin-bottom: 5px;
 }
 div#iimagem {
     background: #5f2c82 url('../imagens/login.jpg') no-repeat center center;
@@ -46,4 +47,43 @@ div#iimagem {
 }
 div#iformu {
     padding: 10px;
+}
+#iformu>h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#iformu>p { 
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+div.ccampo {
+    background-color: #813caf;
+    height: 40px;
+    border-radius: 5px;
+}
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+    background-color: #49a09d;
+    font-size: 1em;
+    margin: auto;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form>input[type=submit]:hover {
+    background-color: #326d6b;
+    color: white;
+}
+form>a {
+    display: block;
+    color: #49a09d;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 7px;
+}
+form>a:hover {
+    text-decoration: underline;
 }
